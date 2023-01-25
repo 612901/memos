@@ -4,6 +4,6 @@ services:
     image: neosmemo/memos:latest
     container_name: memos
     volumes:
-      - ~/.memos/:/data
+      - ./memos:/data
     ports:
       - 5230:5230
